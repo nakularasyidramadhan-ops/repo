@@ -3,7 +3,7 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/MachaOfficial/ubotMacha
+git clone https://github.com/nakularasyidramadhan-ops/repo
 ```
 ```
 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
