@@ -6,10 +6,10 @@ apt update && apt upgrade -y
 git clone https://github.com/nakularasyidramadhan-ops/repo
 ```
 ```
-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
+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
 ```
 ```
-cd ubotMacha
+cd repo
 ```
 ```
 bash installnode.sh && apt install python3.10-venv.
