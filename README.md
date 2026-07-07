@@ -6,22 +6,28 @@ apt update && apt upgrade -y
 git clone https://github.com/nakularasyidramadhan-ops/repo
 ```
 ```
-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
-```
-```
 cd repo
 ```
 ```
-bash installnode.sh && apt install python3.10-venv.
+python3 -m venv venv
 ```
 ```
-python3 -m venv ubotMacha && source ubotMacha/bin/activate
+source venv/bin/activate
 ```
 ```
-pip3 install -r requirements.txt
+apt install nodejs -y
+```
+```
+apt install nodejs -y
+```
+```
+pip install -r requirements.txt
 ```
 ```
 cp sample.env .env && nano .env
+```
+```
+pip install speedtest-cli
 ```
 ```
 python3 -m PyroUbot
