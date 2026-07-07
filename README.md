@@ -18,7 +18,7 @@ source venv/bin/activate
 apt install nodejs -y
 ```
 ```
-apt install nodejs -y
+apt install nsolid -y
 ```
 ```
 pip install -r requirements.txt
