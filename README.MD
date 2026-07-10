@@ -5,7 +5,7 @@ apt update && apt upgrade -y
 git clone https://github.com/nakularasyidramadhan-ops/repo
 ```
 ```
-cd repo
+cd ubotnexxanew
 ```
 ```
 python3 -m venv venv
