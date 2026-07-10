@@ -17,7 +17,7 @@ async def _(client, message):
     user_id = message.from_user.id
     buttons = BTN.START(message)
     msg = MSG.START(message)
-    pantek = "https://files.catbox.moe/w5o27s.jpg"
+    pantek = "https://files.catbox.moe/5vbwff.jpg"
 
     await bot.send_photo(
         user_id, 

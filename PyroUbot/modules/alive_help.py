@@ -194,8 +194,8 @@ async def user_help_inline(client, inline_query):
 
     results = [
         InlineQueryResultPhoto(
-            photo_url="https://files.catbox.moe/8s4cey.jpg",
-            thumb_url="https://files.catbox.moe/8s4cey.jpg",
+            photo_url="https://files.catbox.moe/z2ytnk.jpg",
+            thumb_url="https://files.catbox.moe/z2ytnk.jpg",
             caption=caption,
             reply_markup=InlineKeyboardMarkup(
                 paginate_modules(0, HELP_COMMANDS, "help")
