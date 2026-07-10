@@ -28,7 +28,7 @@ from PyroUbot import *
 @PY.BOT("joinreseller")
 async def _(client, message):
     buttons = BTN.PROMODEK(message)
-    sh = await message.reply("""<u><b>🏷 Join Reseller: 15.000 </b></u>
+    sh = await message.reply("""<u><b>🏷 Join Reseller: 10.000 </b></u>
 <blockquote><b>⚠️ Rules Reseller!!</b>
 <b>  -  Bertanggung Jawab Penuh.</b>
 <b>  -  Tidak Melakukan Penipuan/Scam.</b>
@@ -91,7 +91,7 @@ async def _(client, inline_query):
         peer_users: {users} users
         peer_group: {group} group
         start_uptime: {uptime}</blockquote>
-        <blockquote><b>𝚄𝙱𝙾𝚃 𝚅𝙸𝙿 𝙲𝙴𝙾</b></blockquote>
+        <blockquote><b>𝚄𝙱𝙾𝚃 𝚅𝙸𝙿</b></blockquote>
 """
             await client.answer_inline_query(
                 inline_query.id,
@@ -151,7 +151,7 @@ async def _(client, callback_query):
         return await callback_query.answer("ꜱudah terupdate", True)
     else:
         await callback_query.answer("ꜱedang memproꜱeꜱ update.....", True)
-    os.execl(sys.executable, sys.executable, "-m", "𝚄𝙱𝙾𝚃 𝚅𝙸𝙿 𝙲𝙴𝙾")
+    os.execl(sys.executable, sys.executable, "-m", "𝚄𝙱𝙾𝚃 𝚅𝙸𝙿")
 
 
 @PY.UBOT("help")
@@ -188,7 +188,7 @@ async def user_help_inline(client, inline_query):
         f"{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}</a>\n"
         f"ᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs: {len(HELP_COMMANDS)}\n"
         f"ᴘʀᴇꜰɪx: {' '.join(SH)}\n"
-        f"ᴍʏ ᴜʙᴏᴛ: <a href=t.me/ubotvipceoBot>ubotvipceoBot</a>"
+        f"ᴍʏ ᴜʙᴏᴛ: <a href=t.me/UbotvipnexxaBot>UbotvipnexxaBot</a>"
         f"</b></blockquote>"
     )
 
@@ -226,7 +226,7 @@ async def help_callback(client, callback_query):
     tutup_match = re.match(r"help_tutup\((.+?)\)", callback_query.data)
     back_match = re.match(r"help_back", callback_query.data)
     SH = await ubot.get_prefix(callback_query.from_user.id)
-    top_text = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={callback_query.from_user.id}>{callback_query.from_user.first_name} {callback_query.from_user.last_name or ''}</a>\n  ᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs: {len(HELP_COMMANDS)}\n  ᴘʀᴇꜰɪx: {' '.join(SH)}\n ᴍʏ ᴜʙᴏᴛ: <a href=t.me/@ubotvipceoBot>ubotvipceoBot</a></b></blockquote>"
+    top_text = f"<blockquote><b>✣ ᴍᴇɴᴜ ɪɴʟɪɴᴇ <a href=tg://user?id={callback_query.from_user.id}>{callback_query.from_user.first_name} {callback_query.from_user.last_name or ''}</a>\n  ᴛᴏᴛᴀʟ ᴍᴏᴅᴜʟᴇs: {len(HELP_COMMANDS)}\n  ᴘʀᴇꜰɪx: {' '.join(SH)}\n ᴍʏ ᴜʙᴏᴛ: <a href=t.me/@UbotvipnexxaBot>UbotvipnexxaBot</a></b></blockquote>"
 
     if mod_match:
         module = (mod_match.group(1)).replace(" ", "_")

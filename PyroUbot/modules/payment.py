@@ -23,7 +23,7 @@ async def _(client, callback_query):
             f"""
 <blockquote><b>ꜱɪʟᴀʜᴋᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴛᴇʀʟᴇʙɪʜ ᴛᴀʜᴜʟᴜ ᴋᴇ ɢᴏᴘᴀʏ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ</b>           
 
-DANA/GOPAY : || '0895382173386` ||
+DANA/GOPAY : || '085855861751` ||
 
 <b>💬 sɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍᴋᴀɴ ʙᴜᴋᴛɪ sᴄʀᴇᴇɴsʜᴏᴛ ᴘᴇᴍʙᴀʏᴀʀᴀɴ ᴀɴᴅᴀ: {full_name}</b></blockquote>
 """,
@@ -54,7 +54,7 @@ DANA/GOPAY : || '0895382173386` ||
             )
             CONFIRM_PAYMENT.remove(get.id)
             buttons = [
-                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/=yogzdev")]
+                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/=nexxanybobo")]
             ]
             return await bot.send_message(
                 user_id,
