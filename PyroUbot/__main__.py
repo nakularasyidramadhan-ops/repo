@@ -15,7 +15,7 @@ async def shutdown(signal, loop):
 # --- FUNGSI NOTIFIKASI BOT API ---
 async def send_log_startup():
     await asyncio.sleep(5) # Jeda agar bot stabil
-    ID_LOG_CHANNEL = -1003659966140 # Ganti dengan ID Channel Log kamu
+    ID_LOG_CHANNEL = -1004403786030 Ganti dengan ID Channel Log kamu
     
     # Ambil modul yang terdaftar
     modul_list = ", ".join(HELP.keys()) if HELP else "Tidak ada modul"
